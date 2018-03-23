@@ -1,0 +1,58 @@
+<PISI>
+    <Source>
+        <Name>ruby-domain_name</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <License>BSD-3-Clause</License>
+        <License>MPL-2.0</License>
+        <PartOf>programming.devel</PartOf>
+        <Summary xml:lang="en">RubyGem - domain_name</Summary>
+        <Description xml:lang="en">This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-domain_name</Name>
+        <Summary xml:lang="en">RubyGem - domain_name</Summary>
+        <Description xml:lang="en">This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.document</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/data/public_suffix_list.dat</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/domain_name.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/test_domain_name-punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/test_domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/tool/gen_etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/domain_name-0.5.20170404.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>0.5.20170404</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
