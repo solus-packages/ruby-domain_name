@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-domain_name</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <License>BSD-3-Clause</License>
@@ -21,38 +21,38 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.document</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/LICENSE.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/data/public_suffix_list.dat</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/domain_name.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/punycode.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib/domain_name/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/test_domain_name-punycode.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/test/test_domain_name.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/tool/gen_etld_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/domain_name-0.5.20170404.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.document</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/data/public_suffix_list.dat</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/domain_name.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/test_domain_name-punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/test_domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/tool/gen_etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/domain_name-0.5.20170404.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-23</Date>
+        <Update release="2">
+            <Date>2018-12-26</Date>
             <Version>0.5.20170404</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
