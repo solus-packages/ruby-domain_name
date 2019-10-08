@@ -12,7 +12,7 @@
         <Summary xml:lang="en">RubyGem - domain_name</Summary>
         <Description xml:lang="en">This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-domain_name</Name>
@@ -47,8 +47,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-12-26</Date>
+        <Update release="3">
+            <Date>2019-10-07</Date>
             <Version>0.5.20170404</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
