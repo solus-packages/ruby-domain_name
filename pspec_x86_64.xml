@@ -2,13 +2,13 @@
     <Source>
         <Name>ruby-domain_name</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <License>BSD-3-Clause</License>
         <License>MPL-2.0</License>
-        <PartOf>programming.devel</PartOf>
+        <PartOf>programming.ruby</PartOf>
         <Summary xml:lang="en">RubyGem - domain_name</Summary>
         <Description xml:lang="en">This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
 </Description>
@@ -19,40 +19,37 @@
         <Summary xml:lang="en">RubyGem - domain_name</Summary>
         <Description xml:lang="en">This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
 </Description>
-        <PartOf>programming.devel</PartOf>
+        <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.document</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/LICENSE.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/data/public_suffix_list.dat</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/domain_name.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/etld_data.rb.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/punycode.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/lib/domain_name/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/test_domain_name-punycode.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/test/test_domain_name.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/domain_name-0.5.20170404/tool/gen_etld_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/domain_name-0.5.20170404.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/.document</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/data/public_suffix_list.dat</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/domain_name.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/lib/domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/lib/domain_name/etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/lib/domain_name/etld_data.rb.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/lib/domain_name/punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/lib/domain_name/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/test/test_domain_name-punycode.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/test/test_domain_name.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/domain_name-0.5.20190701/tool/gen_etld_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/domain_name-0.5.20190701.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
-            <Version>0.5.20170404</Version>
+        <Update release="4">
+            <Date>2020-06-26</Date>
+            <Version>0.5.20190701</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

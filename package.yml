@@ -1,19 +1,20 @@
 name       : ruby-domain_name
-version    : 0.5.20170404
-release    : 3
+version    : 0.5.20190701
+release    : 4
 source     :
-    - https://rubygems.org/downloads/domain_name-0.5.20170404.gem : 6e8e5cf80b9fdfae3ef730e73a30bce5da0a1e4a70f6e0a0b8672a28a3471a8a
+    - https://rubygems.org/downloads/domain_name-0.5.20190701.gem : 000a600454cb4a344769b2f10b531765ea7bd3a304fe47ed12e5ca1eab969851
 license    :
     - BSD-2-Clause
     - BSD-3-Clause
     - MPL-2.0
-component  : programming.devel
+component  : programming.ruby
 summary    : RubyGem - domain_name
 description: |
     This is a Domain Name manipulation library for Ruby. It can also be used for cookie domain validation based on the Public Suffix List.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby-unf
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
